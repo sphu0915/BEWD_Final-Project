@@ -1,6 +1,8 @@
-<h1>All Comments</h1>
+	
 
-<p>
-<%= link_to "Post Comment", new_comment_path %>
-<p>
+
+	<%= form.label :comment %>
+	<%= form.text_area :comment %><br />
+	<%= form.submit 'Post Comment' %>
+
 
